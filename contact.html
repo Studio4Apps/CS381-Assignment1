@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact page for personal academic portfolio">
+  <title>Academic Portfolio | Contact</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+<header class="site-header">
+    <div class="container">
+      <p class="eyebrow">Personal Academic Portfolio</p>
+      <h1>Amro Khalid Alghamdi</h1>
+      <p class="header-meta">Student ID: 441400124 | Major: Computer Science</p>
+      <nav aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="profile.html">Profile & CV</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="container">
+      <section class="contact-grid" aria-labelledby="contact-heading">
+        <article class="section-card">
+          <h2 id="contact-heading">Contact Information</h2>
+          <address class="contact-list">
+            <p><strong>Email:</strong> <a href="mailto:Y4M441400124@rcjy.edu.sa">Y4M441400124@rcjy.edu.sa</a></p>
+            <p><strong>Major:</strong> Computer Science</p>
+            <p><strong>Student ID:</strong> 441400124</p>
+            <p><strong>Location:</strong> YIC Campus</p>
+          </address>
+        </article>
+
+        <article class="section-card">
+          <h2>Communication Preference</h2>
+          <p>I usually respond to academic emails within one working day. Please include a clear subject and your name in the message.</p>
+        </article>
+      </section>
+
+      <section class="section-card" aria-labelledby="message-heading">
+        <h2 id="message-heading">Send a Message</h2>
+        <form class="contact-form" action="#" method="post">
+          <div>
+            <label for="full-name">Full Name</label>
+            <input id="full-name" name="full-name" type="text" autocomplete="name" required>
+          </div>
+          <div>
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div>
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" required>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p class="footer-text">© 2026 Amro Khalid Alghamdi | YIC Academic Portfolio</p>
+    </div>
+  </footer>
+</body>
+</html>
